@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter user name ]]>
+    </line>
+    <line>
+      <![CDATA[Enter password  ]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button Login]]>
+    </line>
+    <line>
+      <![CDATA[Verify login successful text Secure Area]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name ]]>
+    </line>
+    <line>
+      <![CDATA[Enter password  ]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button Login]]>
+    </line>
+    <line>
+      <![CDATA[Verify invalid user and password message Your password is invalid!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name ]]>
+    </line>
+    <line>
+      <![CDATA[Enter password  ]]>
+    </line>
+    <line>
+      <![CDATA[Click on login button Login]]>
+    </line>
+    <line>
+      <![CDATA[Verify invalid user and password message Your username is invalid!
+×]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="38779" started-at="2022-12-14T00:27:45 IST" finished-at="2022-12-14T00:28:24 IST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.UserSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="UserSholdLoginSuccessfullyWithValidCredentials" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyThePasswordErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyThePasswordErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.UserSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="UserSholdLoginSuccessfullyWithValidCredentials" class="com.herokuapp.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="38779" started-at="2022-12-14T00:27:45 IST" finished-at="2022-12-14T00:28:24 IST">
+      <class name="com.herokuapp.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="setUp" is-config="true" duration-ms="10505" started-at="2022-12-14T00:27:45 IST" finished-at="2022-12-14T00:27:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="inIt" is-config="true" duration-ms="31" started-at="2022-12-14T00:27:56 IST" finished-at="2022-12-14T00:27:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="UserSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="UserSholdLoginSuccessfullyWithValidCredentials" duration-ms="954" started-at="2022-12-14T00:27:56 IST" finished-at="2022-12-14T00:27:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name ]]>
+            </line>
+            <line>
+              <![CDATA[Enter password  ]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button Login]]>
+            </line>
+            <line>
+              <![CDATA[Verify login successful text Secure Area]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserSholdLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="tearDown" is-config="true" duration-ms="685" started-at="2022-12-14T00:27:57 IST" finished-at="2022-12-14T00:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="setUp" is-config="true" duration-ms="11271" started-at="2022-12-14T00:27:57 IST" finished-at="2022-12-14T00:28:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-14T00:28:09 IST" finished-at="2022-12-14T00:28:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyThePasswordErrorMessage" duration-ms="895" started-at="2022-12-14T00:28:09 IST" finished-at="2022-12-14T00:28:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name ]]>
+            </line>
+            <line>
+              <![CDATA[Enter password  ]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button Login]]>
+            </line>
+            <line>
+              <![CDATA[Verify invalid user and password message Your password is invalid!
+×]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="tearDown" is-config="true" duration-ms="705" started-at="2022-12-14T00:28:10 IST" finished-at="2022-12-14T00:28:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="setUp" is-config="true" duration-ms="11833" started-at="2022-12-14T00:28:10 IST" finished-at="2022-12-14T00:28:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-14T00:28:22 IST" finished-at="2022-12-14T00:28:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="verifyTheUsernameErrorMessage" duration-ms="894" started-at="2022-12-14T00:28:22 IST" finished-at="2022-12-14T00:28:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter user name ]]>
+            </line>
+            <line>
+              <![CDATA[Enter password  ]]>
+            </line>
+            <line>
+              <![CDATA[Click on login button Login]]>
+            </line>
+            <line>
+              <![CDATA[Verify invalid user and password message Your username is invalid!
+×]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.testsuite.LoginPageTest@43a0cee9]" name="tearDown" is-config="true" duration-ms="673" started-at="2022-12-14T00:28:23 IST" finished-at="2022-12-14T00:28:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.testsuite.LoginPageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
